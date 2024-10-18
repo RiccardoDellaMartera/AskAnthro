@@ -1,1 +1,11 @@
+# +required The configuration file schema version
 schemaVersion: 1.0
+
+# +optional Incoming connection details for the component
+endpoints:
+  # +required Unique name for the endpoint.
+  # This name will be used when generating the managed API
+  - name: EndpointAskAnthro
+    # +optional Display name for the endpoint.
+    displayName: EndpointAskAnthro
+    # +required Service section has the user service endpoint detail
