@@ -1,0 +1,12 @@
+langchain~=0.3.3
+langchain-community
+pinecone-client
+langchain-openai
+openai
+langchain-pinecone
+uvicorn~=0.30.5
+fastapi~=0.112.0
+pydantic~=2.9.2
+pypdf
+pinecone~=5.3.1
+python-dotenv~=1.0.1
